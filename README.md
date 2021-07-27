@@ -6,7 +6,7 @@ A simple linear regression model to try to predict the fare of a NY taxi ride ba
 pick up and drop off coordinates. This time it is structured to be used in a production environment.
 The project is build to host a docker container containing the trained model on the google cloud platform.
 The trained model can then be accessed via an API build with FastAPI und run via uvicorn.
-An additional project adds the possiblility to create a website as an user interface to access the API and 
+An additional project adds the possiblility to create a website as a user interface to access the API and 
 get taxi fare predictions: https://github.com/WolfSchew/TaxiFareWebsite
 
 - Data Source:
